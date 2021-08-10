@@ -1,0 +1,38 @@
+.header {
+    min-height: 100px;
+    background-color: rgb(2, 10, 24);
+    position: relative;
+    &__fill {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) -41.9%, #FFFFFF 260.24%);
+        opacity: 0.02;
+        backdrop-filter: blur(200px);
+        border-radius: 10px;
+        z-index: 0;
+    }
+    &__wrapper {
+        position: relative;
+        padding-top: 21px;
+        display: flex;
+        align-items: center;
+        z-index: 1;
+    }
+    &__logo {
+        width: 283px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-title {
+            font-weight: 600;
+            font-size: 22.5px;
+            line-height: 31px;
+            color: #3A68B8;
+        }
+    }
+    &__btn {
+        margin-left: auto;
+    }
+}
