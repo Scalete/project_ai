@@ -4,8 +4,10 @@
     background: $main-color;
     border-radius: 5px;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    font-weight: 600;
     font-size: 16px;
     line-height: 22px;
     color: #FFFFFF;
@@ -13,4 +15,5 @@
     &:focus {
         outline: none;
     }
+
 }

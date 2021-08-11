@@ -1,7 +1,7 @@
 .header {
     min-height: 100px;
-    background-color: rgb(2, 10, 24);
     position: relative;
+    background-color: rgb(2, 10, 24);
     &__fill {
         position: absolute;
         top: 0;
@@ -26,7 +26,6 @@
         justify-content: space-between;
         align-items: center;
         &-title {
-            font-weight: 600;
             font-size: 22.5px;
             line-height: 31px;
             color: #3A68B8;

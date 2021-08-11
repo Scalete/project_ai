@@ -21,11 +21,13 @@ h1, h2, h3, h4 {
 @import 'blocks/button';
 @import 'blocks/header';
 @import 'blocks/menu';
+@import 'blocks/promo';
 
 @import 'blocks/media';
 
 * {
     font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
