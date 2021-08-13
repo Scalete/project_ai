@@ -1,4 +1,5 @@
 @import 'libs/bootstrap-reboot.min';
+@import 'libs//slick';
 @import 'libs/font';
 @import 'blocks/variables';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap');
@@ -23,6 +24,7 @@ h1, h2, h3, h4 {
 @import 'blocks/menu';
 @import 'blocks/promo';
 @import 'blocks/ai';
+@import 'blocks/slider';
 
 @import 'blocks/media';
 
